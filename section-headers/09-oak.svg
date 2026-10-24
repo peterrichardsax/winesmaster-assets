@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220" role="img" aria-label="Oak">
+<style>
+@keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+.t1{animation:fadeUp .8s ease-out both}
+.t2{animation:fadeUp .8s .25s ease-out both}
+.t3{animation:fadeUp .8s .5s ease-out both}
+@keyframes rule { from{stroke-dashoffset:120} to{stroke-dashoffset:0} }
+.rule{stroke-dasharray:120;animation:rule 1.2s .4s ease-out both}
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6F1EA"/><stop offset="1" stop-color="#EFE6DA"/></linearGradient>
+  <radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="white" stop-opacity=".9"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="640" height="220" fill="url(#bg)"/>
+<rect x="0" y="0" width="8" height="220" fill="#6B1F33"/>
+<circle cx="150" cy="110" r="96" fill="url(#halo)"/>
+<circle cx="150" cy="110" r="84" fill="white" stroke="#C9A24A" stroke-width="1.5" opacity=".9"/>
+<g transform="translate(150,110)">
+<style>
+@keyframes rise9 { 0%{transform:translateY(12px);opacity:0} 30%{opacity:.9} 100%{transform:translateY(-18px);opacity:0} }
+.wisp{animation:rise9 2.8s ease-out infinite}
+</style>
+<g transform="translate(0,12)">
+  <path d="M-36,-44 c-6,30 -6,58 0,88 h72 c6,-30 6,-58 0,-88z" fill="#B9834A" stroke="#7A4E25" stroke-width="3"/>
+  <g stroke="#7A4E25" stroke-width="2" opacity=".6"><path d="M-18,-44 c-3,30 -3,58 0,88"/><path d="M0,-44 v88"/><path d="M18,-44 c3,30 3,58 0,88"/></g>
+  <g fill="none" stroke="#4A3A2A" stroke-width="5"><path d="M-38,-26 h76"/><path d="M-39,26 h78"/></g>
+</g>
+<path class="wisp" style="animation-delay:0.0s" d="M-14,-52 c5,-6 -5,-12 0,-18 c5,-6 -5,-12 0,-18" fill="none" stroke="#C9A24A" stroke-width="2.5" stroke-linecap="round"/><path class="wisp" style="animation-delay:0.7s" d="M2,-52 c5,-6 -5,-12 0,-18 c5,-6 -5,-12 0,-18" fill="none" stroke="#C9A24A" stroke-width="2.5" stroke-linecap="round"/><path class="wisp" style="animation-delay:1.4s" d="M18,-52 c5,-6 -5,-12 0,-18 c5,-6 -5,-12 0,-18" fill="none" stroke="#C9A24A" stroke-width="2.5" stroke-linecap="round"/></g>
+<g transform="translate(292,0)">
+  <text class="t1" x="0" y="66" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#8C6A72">TASTE</text>
+  <text class="t2" x="0" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="bold" fill="#2B1A1F">Oak</text>
+  <path class="rule" d="M0,128 h120" stroke="#C9A24A" stroke-width="2" stroke-linecap="round"/>
+  <text class="t3" x="0" y="160" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="18" fill="#6B1F33">Vanilla, toast, cedar?</text>
+  <text x="0" y="196" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#8C6A72">QUESTION 9 OF 18</text>
+</g>
+</svg>

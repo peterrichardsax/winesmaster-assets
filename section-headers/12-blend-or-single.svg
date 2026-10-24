@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220" role="img" aria-label="Blend or Single">
+<style>
+@keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+.t1{animation:fadeUp .8s ease-out both}
+.t2{animation:fadeUp .8s .25s ease-out both}
+.t3{animation:fadeUp .8s .5s ease-out both}
+@keyframes rule { from{stroke-dashoffset:120} to{stroke-dashoffset:0} }
+.rule{stroke-dasharray:120;animation:rule 1.2s .4s ease-out both}
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6F1EA"/><stop offset="1" stop-color="#EFE6DA"/></linearGradient>
+  <radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="white" stop-opacity=".9"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="640" height="220" fill="url(#bg)"/>
+<rect x="0" y="0" width="8" height="220" fill="#6B1F33"/>
+<circle cx="150" cy="110" r="96" fill="url(#halo)"/>
+<circle cx="150" cy="110" r="84" fill="white" stroke="#C9A24A" stroke-width="1.5" opacity=".9"/>
+<g transform="translate(150,110)">
+<style>
+@keyframes left { 0%,15%{transform:translateX(0)} 50%,65%{transform:translateX(34px)} 100%{transform:translateX(0)} }
+@keyframes right { 0%,15%{transform:translateX(0)} 50%,65%{transform:translateX(-34px)} 100%{transform:translateX(0)} }
+.l{animation:left 5s ease-in-out infinite}
+.r{animation:right 5s ease-in-out infinite}
+</style>
+<g opacity=".85">
+  <circle class="l" cx="-52" cy="0" r="30" fill="#A3344F"/>
+  <circle class="r" cx="52" cy="0" r="30" fill="#C9A24A"/>
+  <circle cx="0" cy="0" r="30" fill="#4A1E3A"/>
+</g></g>
+<g transform="translate(292,0)">
+  <text class="t1" x="0" y="66" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#8C6A72">TECHNICAL ANALYSIS</text>
+  <text class="t2" x="0" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="bold" fill="#2B1A1F">Blend or Single</text>
+  <path class="rule" d="M0,128 h120" stroke="#C9A24A" stroke-width="2" stroke-linecap="round"/>
+  <text class="t3" x="0" y="160" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="18" fill="#6B1F33">One voice, or layers?</text>
+  <text x="0" y="196" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#8C6A72">QUESTION 12 OF 18</text>
+</g>
+</svg>
