@@ -348,7 +348,7 @@ def ill_18():
 .s{{transform-box:fill-box;transform-origin:center;animation:star 4.5s ease-in-out infinite}}
 </style>
 <g transform="translate(0,-4) scale(.92)">{stars}</g>
-<text x="0" y="52" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="{MUTED}">50 to 100</text>"""
+<text x="0" y="52" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="{MUTED}">out of 5</text>"""
 
 ILLS = {1: ill_1, 2: ill_2, 3: ill_3, 4: ill_4, 5: ill_5, 6: ill_6, 7: ill_7, 8: ill_8, 9: ill_9, 10: ill_10,
         11: ill_11, 12: ill_12, 13: ill_13, 14: ill_14, 15: ill_15, 16: ill_16, 17: ill_17, 18: ill_18}
